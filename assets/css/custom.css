@@ -1,0 +1,55 @@
+.title_comment{
+    margin-bottom: 15px;
+}
+
+#publishButton{
+    border: none;
+    height: 31px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3b5998;
+    padding: 0 10px;
+}
+#userComment{
+    height: 32px;
+    width: 350px;
+    padding: 0 5px;
+}
+
+.vertical-align_inherit {
+    vertical-align: inherit;
+}
+
+.red-text {
+    color: red;
+}
+
+.principal_bg {
+    background-image: url("data:image/png;base64,");
+}
+
+.survey_button {
+    background-color: #ed9220;
+}
+
+.boxes {
+    background-image: url("../img/img-1.png");
+}
+
+.content {
+    background: #f2f2f2;
+}
+
+body.with_background {
+    background: url("../img/img-1.png");
+}
+
+@media (max-width: 800px) {
+    body.with_background {
+        background: url("../img/img-1.png");
+    }
+}
+
+.text-primary {
+    color: #bc42a4;
+}
